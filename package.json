@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "scripts": {
+    "start": "ts-node-dev ./src/index.ts",
     "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules --respawn ./src/index.ts",
     "vercel-build": "npx prisma migrate deploy"
   },
