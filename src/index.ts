@@ -20,7 +20,8 @@ app.use(express.text())
 app.use(express.urlencoded({ extended: true }))
 
 app.use(cors({
-    credentials: true
+    credentials: true,
+    origin: "https://hub-dashboard.vercel.app/"
 }))
 
 app.use(routes)
