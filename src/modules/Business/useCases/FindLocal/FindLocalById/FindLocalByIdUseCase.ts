@@ -9,7 +9,7 @@ interface BusinessLocalWithProps {
     state:        string;
     locality:     string;
     number:       string;
-    businessId:   string;
+    businessId?:  string;
 }
 
 @injectable()
