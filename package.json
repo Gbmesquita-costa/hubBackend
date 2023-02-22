@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules --respawn ./src/index.ts",
     "vercel-build": "npx prisma migrate deploy"

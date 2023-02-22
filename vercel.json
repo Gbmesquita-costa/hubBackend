@@ -1,5 +1,4 @@
 {
-    "rewrites": [{ "source": "/src/(.*)", "destination": "/src" }],
     "version": 2,
     "builds": [
         {
