@@ -13,7 +13,7 @@ import cors from "cors"
 import { routes } from "./routes/routes"
 
 const app = express()
-const port = process.env.PORT || 3333
+const port = process.env.PORT ?? 3333
 
 app.use(express.json())
 app.use(express.text())
