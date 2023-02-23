@@ -12,6 +12,7 @@ Esta aplicação back-end foi desenvolvida em Node.js com o uso da biblioteca Ex
 . Jsonwebtoken
 . CORS
 . DotEnv
+. Tsyringe
 . Typescript
 
 # Funcionalidades
